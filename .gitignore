@@ -1,0 +1,15 @@
+# Local Python environments
+venv/
+.venv/
+
+# Private credentials
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Generated files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+movie_data.pkl
